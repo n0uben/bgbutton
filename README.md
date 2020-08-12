@@ -2,4 +2,4 @@
 
 My first project with javascript.
 
-When clicked, the button change the "main" element background color by randomly pick on color frm an array
+When clicked, the button change the "main" element background color by randomly pick a color from an array
