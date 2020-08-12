@@ -1,6 +1,9 @@
-// get main and button
+// get main, h1 and button
 let mainContainer = document.getElementById("main");
+let pageTitle = document.getElementById("page-title");
 const buttonChangeBackground = document.getElementById("change-bg");
+
+pageTitle.textContent = "Hello World";
 
 // Define a color array for tests
 const colorTheme1 = ["264653", "2A9D8F", "E9C46A", "F4A261", "E76F51", "14213d", "e63946", "457b9d", "3d5a80"];
@@ -19,6 +22,3 @@ const changeColor = () => {
 
 // onclick, use changeColor function
 buttonChangeBackground.addEventListener('click', changeColor);
-
-
-
